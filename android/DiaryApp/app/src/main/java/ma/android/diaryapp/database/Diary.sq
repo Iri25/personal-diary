@@ -1,0 +1,22 @@
+CREATE TABLE Diaries (
+  day TEXT NOT NULL,
+  userId TEXT NOT NULL,
+  color TEXT NOT NULL,
+  summary TEXT NOT NULL,
+  text TEXT NOT NULL
+);
+
+selectAll:
+SELECT * FROM Diaries;
+
+selectByDay:
+SELECT * FROM Diaries WHERE day = ?;
+
+insertDiary:
+INSERT INTO Diaries(day, userId, color, summary, text) VALUES (?, ?, ?, ?, ?);
+
+updateDiary:
+INSERT OR REPLACE INTO Diaries(day, userId, color, summary, text) VALUES (?, ?, ?, ?, ?);
+
+deleteDiary:
+DELETE FROM Diaries WHERE day = ?;

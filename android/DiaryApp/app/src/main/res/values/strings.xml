@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DiaryApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_edit_diary">Edit Diary</string>
+
+    <string name="save_button">Save Button</string>
+    <string name="choose_button">Choose Button</string>
+    <string name="update_button">Update Button</string>
+    <string name="delete_button">Delete Button</string>
+    <string name="calendar_button">Calendar Button</string>
+
+    <string-array name="frames">
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Pink</item>
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Blue</item>
+    </string-array>
+
+</resources>
