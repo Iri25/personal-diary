@@ -1,7 +1,6 @@
 # personal-diary
 
-Mobile application with a layered architecture: data access layer (data package), persistence layer (repository package), database layer (database package) and presentation layer (ui package) developed in Kotlin ([DiaryAppKotlin](https://github.com/Iri25/ma-project-Iri25/tree/main/android) native project) and Flutter ([DiaryAppFlutter](https://github.com/Iri25/ma-project-Iri25/tree/main/flutter) non-native project). The data is saved in the MySQL database using Room DAOs (Kotlin). The use cases can be found in the file [Use cases](https://github.com/Iri25/personal-diary/blob/main/Use%20cases.pdf).
-
+Mobile application with a layered architecture: data access layer (data package), persistence layer (repository package), database layer (database package) and presentation layer (ui package) developed in Kotlin ([DiaryAppKotlin](https://github.com/Iri25/ma-project-Iri25/tree/main/android) native project) and Flutter ([DiaryAppFlutter](https://github.com/Iri25/ma-project-Iri25/tree/main/flutter) non-native project). The data is saved in the MySQL database using Room DAOs (Kotlin). 
 Key concepts are abstraction, encapsulation, inheritance, polymorphism, exceptions, reading from a database and storing from a database.
 
 Mobile application for a personal diary. The application allows the following operations:
@@ -11,4 +10,5 @@ Mobile application for a personal diary. The application allows the following op
 4. Update a diary page
 5. Delete a diary page
 
+The use cases can be found in the [Use cases](https://github.com/Iri25/personal-diary/blob/main/Use%20cases.pdf) file.
 
